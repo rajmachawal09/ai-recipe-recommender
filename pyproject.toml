@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-recipe-recommender"
+version = "0.1.0"
+description = "A recipe app that uses AI to recommend recipes based on user preferences, dietary restrictions, and available ingredients. The AI can suggest substitutions and variations to suit individual tastes."
+authors = ["The Jedi Code <16720054+rajmachawal09@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+protobuf = "^3.20"
+pandas = "^2.2.2"
+tensorflow = "^2.17.0"
+scikit-learn = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
